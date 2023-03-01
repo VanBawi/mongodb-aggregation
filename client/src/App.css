@@ -1,0 +1,39 @@
+@import '~antd/dist/antd.css';
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: local('BrandonGrotesque-Medium'),
+    url(./fonts/attachments/BrandonGrotesque-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSans-Regular'),
+    url(./fonts/attachments/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto-Regular'),
+    url(./fonts/attachments/Roboto-Regular.ttf) format('truetype');
+}
+
+.App {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* hide arrows on number input  */
+
+/* Chrome, Safari, Edge, Opera */
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,820 @@
+.mobile-verification-content {
+  padding: 20px 10%;
+  font-family: 'Brandon Grotesque';
+  text-align: center;
+  font-size: 1rem;
+}
+
+.mobile-verification-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.7rem;
+  position: relative;
+}
+
+.mobile-verification-subtitle {
+  padding: 0 15px;
+}
+
+.mobile-verification-form {
+  padding: 0 10px;
+}
+
+.mobile-verification-phone-number {
+  margin: 100px 0 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.mobile-verification-phone-number-input {
+  text-align: left;
+  width: 100%;
+  border-radius: 12px;
+  height: 40px;
+  padding: 4px 20px;
+}
+
+.mobile-verification-submit-button {
+  margin-top: 60px;
+  width: 100%;
+  border-radius: 8px;
+  height: 45px;
+  font-size: 1.2rem;
+  background-color: #2197d3 !important;
+}
+
+.verification-code-form {
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.verification-code-submit-button {
+  width: 100%;
+  background-color: #2197d3;
+  color: white;
+  font-size: 1.2rem;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 10px;
+  margin-top: 120px;
+}
+
+.registration-input-title {
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.registration-input-field {
+  text-align: left;
+  width: 100%;
+  border-radius: 12px;
+  height: 40px;
+  padding: 4px 20px;
+}
+
+.registration-form {
+  padding: 40px 10px 0;
+}
+
+.registration-form .ant-form-item {
+  margin-bottom: 10px;
+}
+
+.registration-checkbox-grid {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 10px;
+}
+
+.registration-checkbox-grid .ant-checkbox-inner {
+  border: 1px solid #1d3a6c !important;
+  border-radius: 0px !important;
+}
+
+.registration-checkbox-text {
+  text-align: left;
+  margin-bottom: 0px;
+  font-family: 'Arial';
+  line-height: 18px;
+  font-size: 0.8rem;
+}
+
+.registration-submit-button {
+  width: 100%;
+  background-color: #2197d3;
+  color: white;
+  font-size: 1.2rem;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.select-language-content {
+  padding: 120px 10% 0;
+  font-family: 'Brandon Grotesque';
+  text-align: center;
+  font-size: 1rem;
+}
+
+.select-language-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.select-language-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.select-language-button {
+  width: 75%;
+  height: 45px;
+  background-color: #2197d3;
+  color: white;
+  height: 45px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border-width: 0px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.retailer-registration-content {
+  padding: 50px 10% 0;
+  font-family: 'Brandon Grotesque';
+  text-align: center;
+  font-size: 1rem;
+}
+
+.retailer-registration-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.retailer-registration-form {
+  margin-top: 90px;
+}
+
+.retailer-registration-phone-number {
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.retailer-registration-phone-number-input {
+  text-align: left;
+  width: 100%;
+  border-radius: 12px;
+  height: 40px;
+  padding: 4px 20px;
+}
+
+.retailer-registration-submit-button {
+  width: 60%;
+  background-color: #2197d3;
+  color: white;
+  font-size: 1.2rem;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 15px;
+}
+
+.store-performance-content {
+  margin: 30px 6% 0;
+  font-family: 'Brandon Grotesque';
+  text-align: center;
+  font-size: 1rem;
+}
+
+.store-performance-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.store-performance-box {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  margin-top: 50px;
+}
+
+.store-performance-box-top {
+  background-color: #2197d3;
+  border-radius: 6px;
+  padding: 20px 40px 40px;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.store-performance-box-bottom {
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.store-performance-grid {
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.store-performance-hr {
+  margin: 5px 0;
+}
+
+.store-performance-box-bottom-amount {
+  color: #2197d3;
+  text-align: right;
+  font-weight: bold;
+}
+
+.upload-receipt-content {
+  padding: 10px 0;
+  font-family: 'Brandon Grotesque';
+  font-size: 1rem;
+  position: relative;
+}
+
+.upload-receipt-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #242854;
+  text-align: center;
+}
+
+.upload-receipt-input-title {
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.upload-receipt-input-field {
+  text-align: left;
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  padding: 4px 20px;
+}
+
+.upload-receipt-input-item {
+  margin: 15px 10%;
+}
+
+.upload-receipt-input-file-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(235, 235, 235, 0.29);
+  border: 2px dashed #b5b4b4;
+  border-radius: 10px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.upload-receipt-input-file-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: fit-content;
+}
+
+.upload-receipt-input-file-textone {
+  background-color: #c8c8c8;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-right: 8px;
+}
+
+.upload-receipt-form .ant-input-number-input {
+  padding: 0 !important;
+}
+
+.upload-receipt-submit-button {
+  width: 100%;
+  background-color: #2197d3;
+  color: white;
+  font-size: 1.2rem;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 15px;
+}
+
+.upload-receipt-purchase {
+  background-color: #daf8ff;
+  padding: 10px 10% 20px;
+  font-size: 1.1rem;
+}
+
+.upload-receipt-purchase-grid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.submit-receipt-content {
+  position: relative;
+  padding: 10px 6%;
+  font-family: 'Brandon Grotesque';
+  font-size: 1.2rem;
+}
+
+.submit-receipt-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #242854;
+  text-align: center;
+}
+
+.submit-receipt-input-title {
+  margin: 40px 0px 20px 10px;
+}
+
+.submit-receipt-preview-box {
+  border: 1px solid rgba(48, 101, 171, 0.5);
+  border-radius: 5.7px;
+  padding: 15px 40px;
+}
+
+.submit-receipt-reupload {
+  background-color: #6c6c6c;
+  border-radius: 5.7px;
+  padding: 3px 20px;
+  text-align: center;
+  width: 80%;
+  margin: 15px auto 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-receipt-make-sure {
+  margin: 25px 6% 15px;
+}
+
+.submit-receipt-make-sure-grid {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-top: 10px;
+  line-height: 23px;
+}
+
+.submit-receipt-submit-button {
+  background-color: #279ad4;
+  border-radius: 15px;
+  margin: 40px 4% 0;
+  color: white;
+  width: calc(100% - 8%);
+  height: 45px;
+  font-size: 1.2rem;
+}
+
+.submit-receipt-upload-history-button {
+  background-color: white;
+  border: 1.5px solid #279ad4;
+  border-radius: 15px;
+  margin: 15px 4% 0;
+  width: calc(100% - 8%);
+  height: 45px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.submit-receipt-modal-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.submit-receipt-modal {
+  position: relative;
+  width: 82% !important;
+  max-width: 480px;
+}
+
+.submit-receipt-modal .ant-modal-content {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 20px !important;
+  padding: 15px 25px;
+}
+
+.submit-receipt-modal-tick {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+}
+
+.submit-receipt-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(25%, -25%);
+  width: 35px;
+  cursor: pointer;
+}
+
+.submit-receipt-modal-text {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 1rem;
+}
+
+.reward-content {
+  padding: 20px 6%;
+  font-family: 'Brandon Grotesque';
+  font-size: 1.2rem;
+}
+
+.reward-title {
+  position: relative;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #242854;
+  text-align: center;
+}
+
+.reward-redeem-box {
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.reward-redeem-box-top {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  cursor: pointer;
+}
+
+.reward-redeem-box-bottom {
+  background-color: #2197d3;
+  border-radius: 0px 0px 6px 6px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-family: 'Open Sans';
+  cursor: pointer;
+}
+
+.reward-redeem-box-bottom-redeemed {
+  background-color: #888b8d;
+  border-radius: 0px 0px 6px 6px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-family: 'Open Sans';
+}
+
+.reward-redeem-box-reward-name {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 22px;
+  font-family: 'Open Sans';
+}
+
+.reward-redeem-box-expire-date {
+  color: #888b8d;
+  font-size: 0.8rem;
+  line-height: 14px;
+  font-family: 'Open Sans';
+}
+
+.tng-code-content {
+  background-image: url('https://dwzg9hxy3ldn9.cloudfront.net/cmh_retention3/images/ballon-bg.png');
+  background-position: right 98%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  display: inline-block;
+  width: 100%;
+  height: calc(100vh - 190px);
+  font-family: 'Brandon Grotesque';
+}
+
+.tng-code-box {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  width: 90%;
+  margin: 180px auto 0;
+  padding: 15px 25px;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.tng-code-box-title {
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  line-height: 28px;
+}
+
+.tng-code-box-grid {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  border: 1px solid #888b8d;
+  border-radius: 6px;
+  height: 55px;
+}
+
+.tng-code-box-grid-code {
+  font-family: 'Roboto';
+  font-size: 2rem;
+}
+
+.tng-code-box-grid-copy-box {
+  background-color: #2197d3;
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tng-code-box-how-redeem {
+  color: #2197d3;
+  line-height: 20px;
+  font-family: 'Roboto';
+  margin: 20px 0 40px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+.tng-code-box-how-redeem-question {
+  border-radius: 50%;
+  border: 1px solid #2197d3;
+  padding: 0 5px;
+}
+
+.tng-code-box-term {
+  text-align: right;
+  color: #a0a0a0;
+  font-family: 'Roboto';
+  font-size: 0.8rem;
+}
+
+.step-redeem-box {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  margin: 50px auto 0;
+  padding: 15px 25px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: white;
+}
+
+.step-redeem-box-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 30px;
+  margin: 15px 0 40px;
+}
+
+.step-redeem-box-grid {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  font-size: 1.1rem;
+  text-align: left;
+  margin-bottom: 15px;
+  line-height: 20px;
+  color: black;
+}
+
+.step-redeem-box-step-number {
+  background-color: #2197d3;
+  border-radius: 50%;
+  padding: 4px 9px;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+}
+
+.step-redeem-box-ok-button {
+  width: 90%;
+  background-color: #2197d3;
+  color: white;
+  font-size: 1.2rem;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.step-redeem-box-valid {
+  text-align: right;
+  color: #a0a0a0;
+  font-size: 0.8rem;
+}
+
+.reward-modal-title {
+  margin: 15px 0 10px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.reward-modal {
+  position: relative;
+  width: 82% !important;
+  font-family: 'Brandon Grotesque';
+}
+
+.reward-modal .ant-modal-content {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 20px !important;
+}
+
+.reward-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(25%, -25%);
+  width: 35px;
+  cursor: pointer;
+}
+
+.reward-modal-care-logo {
+  margin: auto;
+  display: block;
+  width: 22%;
+}
+
+.reward-modal-text {
+  font-family: 'Open Sans';
+  color: black;
+  text-align: center;
+}
+
+.reward-modal-done-button {
+  background-color: #279ad4;
+  border-radius: 10px;
+  margin: 30px 0 0;
+  color: white;
+  height: 45px;
+  width: 100%;
+  border-width: 0px;
+  font-size: 1.2rem;
+}
+
+.reward-modal-grid {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+}
+
+.reward-modal-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.reward-modal-flex-text {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.reward-modal-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.home-background {
+  background-image: url('https://dwzg9hxy3ldn9.cloudfront.net/mt5/assets/homepage.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #89cde4;
+  min-height: 100%;
+  min-width: 100%;
+  display: inline-block;
+}
+
+.home-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+}
+
+.home-content {
+  margin: 20px 3%;
+}
+
+.border-black {
+  border-bottom: 1px solid black;
+  height: 5px;
+  width: 8rem;
+}
+
+.home-promotion {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.home-grid-box {
+  background-image: url('https://dwzg9hxy3ldn9.cloudfront.net/cmh_retention3/images/blue-box.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+  padding: 13px;
+}
+
+.home-flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #004c6c;
+  font-size: 1rem;
+  padding: 0 5%;
+  line-height: 23px;
+}
+
+.home-vertical-line {
+  position: absolute;
+  height: 55%;
+  /* width: .5px; */
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  /* background-color: #000000; */
+  border-left: 1px solid rgb(13, 13, 13);
+}
+
+.home-shadow-text {
+  color: #004c6c;
+  font-family: 'Brandon Grotesque';
+  font-weight: bold;
+  text-shadow: 0px 0px 8px #ffffff;
+}
+
+.home-btn-bg {
+  background-image: url('https://dwzg9hxy3ldn9.cloudfront.net/cmh_retention3/images/home-btn-bg.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 80%;
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home-shadow-text.right {
+  width: 105%;
+}
+
+@media only screen and (max-width: 352px) {
+  .product {
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 396px) {
+  .home-shadow-text.right {
+    width: 108%;
+  }
+}
+
+.termncond-content {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: #000;
+  font-family: 'Arial';
+  line-height: 1.6em;
+}
+
+.termncond-content table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

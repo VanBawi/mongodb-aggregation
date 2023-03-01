@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv='x-ua-compatible' content='ie=edge' />
+    <title>Notification Email</title>
+  </head>
+  <body>
+    <h2>Please find below the list of retailers that have utilised 60% of the
+      allocation:
+    </h2>
+    <table>
+      <tr>
+        <th>Region</th>
+        <th>Store Code</th>
+        <th>Store Name</th>
+        <th>Allocation</th>
+        <th>Used Allocation</th>
+      </tr>
+      {{#each store}}
+        <tr>
+          <td>{{region}}</td>
+          <td>{{storeCode}}</td>
+          <td>{{storeName}}</td>
+          <td>{{totalalloc}}</td>
+          <td>{{usedalloc}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </body>
+</html>
